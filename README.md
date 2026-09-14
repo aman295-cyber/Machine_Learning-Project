@@ -1,42 +1,43 @@
-# Student Marks Prediction using Linear Regression
+# Machine Learning Projects
 
-## Project Description
+This repository contains my Machine Learning projects using Python and Scikit-learn.
 
-This project predicts student marks based on study hours
-using the Linear Regression machine learning algorithm.
+## Projects
 
-## Dataset
+### 1. Linear Regression
+Predicting student marks based on study hours.
 
-The dataset contains two columns:
+### 2. Multiple Linear Regression
+Predicting student marks using:
+- Study hours
+- Sleep hours
+- Attendance
 
-- study_hours
-- marks
+### 3. Car Price Prediction
+Predicting car prices using machine learning.
 
-## Technologies Used
+#### Dataset Features
+- Levy
+- Manufacturer
+- Production Year
+- Category
+- Leather Interior
+- Fuel Type
+- Engine Volume
+- Mileage
+- Cylinders
+- Gear Box Type
+- Drive Wheels
+- Airbags
 
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
-- Jupyter Notebook
+#### Models Used
+- Linear Regression
+- Log Linear Regression
+- Random Forest Regressor
 
-## Machine Learning Algorithm
+#### Best Model
+Random Forest Regressor performed best after data cleaning and outlier removal.
 
-Linear Regression
-
-## Evaluation Metrics
-
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- R² Score
-
-## Example Prediction
-
-For a student studying 9 hours, the model predicted approximately
-95.34 marks.
-
-## How to Run
-
-1. Open the notebook in Jupyter Notebook.
-2. Run all cells from top to bottom.
-3. Check the predictions, metrics, and graph.
+#### Evaluation
+- MAE: Approximately 3934
+- R² Score: Approximately 0.77
