@@ -15,3 +15,5 @@ env/
 # System files
 .DS_Store
 Thumbs.db
+
+/Wine_Quality_Dataset/
